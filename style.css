@@ -1,0 +1,92 @@
+body {
+  font-family: "Roboto Mono", monospace;
+  min-height: 400px;
+  background-image: url("https://images.unsplash.com/photo-1560977501-7cb367eccebe?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1850&q=80");
+  background-color: #000000;
+  background-size: 100vh;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+  height: 100vh;
+}
+
+.page-title {
+  color: #ffffff;
+  margin: 0 0 5px;
+}
+
+.page-subtitle {
+  color: #ffffff;
+  margin-top: 5px;
+}
+
+.page-logo {
+  width: 200px;
+}
+
+.alura-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+#tabelaCelsFahr {
+  margin-left: auto;
+  margin-right: auto;
+  border-collapse: collapse;
+  border: 2px solid black;
+  width: 300px;
+}
+
+#tabelaCelsFahr tr {
+  height: 30px;
+}
+
+/*Título tabela: tipo letra, tamanho, alinhamento*/
+#tabelaCelsFahr thead {
+  /*font-family: Verdana;*/
+  font-size: 20px;
+  text-align: center;
+  color: white;
+  background-color: black;
+  font-weight: bold;
+}
+
+/*1ª coluna: tipo letra, tamanho, cor da letra e do fundo*/
+#tabelaCelsFahr td:nth-child(1) {
+  /*font-family: Arial;*/
+  font-size: 16px;
+  color: white;
+  background-color: black;
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#tabelaCelsFahr input[type="text"] {
+  width: 192px;
+}
+
+#tabelaCelsFahr .button {
+  border: 1px solid black;
+  padding: 10px 15px;
+  text-align: center;
+  font-size: 12px;
+  transition-duration: 0.4s;
+  width: 200px;
+}
+
+#tabelaCelsFahr .button:hover {
+  background-color: deepskyblue;
+  font-weight: bold;
+}
+
+#pCels {
+  background-color: white;
+  font-weight: bold;
+}
