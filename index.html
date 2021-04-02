@@ -1,0 +1,62 @@
+<html>
+
+<head>
+  <title>
+    Imersão Dev - Aula 01
+  </title>
+</head>
+
+<body>
+  <div class="container">
+    <h1 class="page-title">
+      Conversor de temperaturas
+    </h1>
+    <p class="page-subtitle">
+      Converter Fahreneit para Celsius
+    </p>
+    <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg" class="page-logo" alt="">
+    <p>
+      <hr>
+    </p>
+    <form>
+      <table id="tabelaCelsFahr">
+
+        <thead>
+          <tr>
+            <th colspan="2">Fahrenheit -> Celsius</th>
+          </tr>
+        </thead>
+
+        <tr>
+          <td><label>Fahrenheit</label></td>
+          <td><input id="idFahr" type="text" /></td>
+        </tr>
+
+        <tr>
+          <td></td>
+          <td><input id="botaoCalcular" type="button" value="Calcular" onclick="CelsFarh()" class="button" /></td>
+        </tr>
+
+        <tr>
+          <td><label>Celsius</label></td>
+          <td>
+            <p id="pCels"></p>
+          </td>
+        </tr>
+
+        <tr>
+          <td></td>
+          <td><input id="botaoNovo" input type="reset" value="Novo Cálculo" class="button" /></td>
+        </tr>
+
+      </table>
+    </form>
+
+  </div>
+  <a href="https://alura.com.br/" target="_blank">
+    <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
+  </a>
+
+</body>
+
+</html>
